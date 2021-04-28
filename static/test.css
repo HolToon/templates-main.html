@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+}
+.circle {
+	animation-name: white-circle;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-play-state: paused;
+	width: 100px;
+	height: 100px;
+	background: black;
+	border-radius: 50%;
+	position: relative;
+	left: 0;
+	top: 100px;
+}
+.circle:hover {
+	animation-play-state: running;
+}
+@keyframes white-circle {
+	0% {
+		left: 0;
+	}
+	100% {
+		left: 500px;
+	}
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="../static/form3.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HolToon</title>
+</head>
+<body>
+	<header>
+		<div class="nav">
+			<ul class="menu">
+				<li>
+					<a href="main.html">
+					Главная
+					</a>
+				</li>
+				<li>
+					<ul class="cotol">
+						<li>
+							<a href="#" class="menu_link">
+								Апартаменты <img id="vec" src="../static/images/vector.png">
+							</a>
+							<ul class="sub-cotol">
+								<li>
+									<a href="form1.html">Юбилейка</a>
+								</li>
+								<li>
+									<a href="form2.html">Балтийская</a>
+								</li>
+								<li id="imposter">
+									<a href="form3.html">Высотка</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="tel:+79512943458" id="tel">
+						+7 951 294 34-58
+					</a>
+				</li>
+			</ul>
+		</div>
+	</header>
+
+	<section id="product__3">
+		<div id="fon__3">
+			<div class="descript">
+				<div class="descript__1">
+					<h1>Высотка</h1>
+					<p>Апартаменты  «Высотка»<br>
+					с 4 спальными местами и бесплатным Wi-Fi расположены в Пскове.</p>
+					<a href="#">
+						<div class="btn">Забронировать</div>
+					</a>
+				</div>
+				<div class="descript__images__3">
+					<a href="#">
+						<img src="../images/hg2.jpg" alt="Фотографии о данном разделе">
+					</a>
+					<ul class="descript__images__list__3">
+						<a href="#">
+							<img src="../images/hg2.jpg" alt="Фотографии о данном разделе" width="122" height="81">
+						</a>
+						<a href="#">
+							<img src="../images/hg2.jpg" alt="Фотографии о данном разделе" width="122" height="81">
+						</a>
+						<a href="#">
+							<span>
+								+4
+							</span>
+						</a>
+					</ul>
+				</div>
+			</div>
+			<div class="border__3"></div>
+		</div>
+		<div class="fon__2"></div>
+	</section>
+
+	<section>
+		<div class="travel">
+			<p id="traval__text">
+				Места которые можно посетить.
+			</p>
+		</div>
+	</section>
+
+	<section id="form">
+		<div id="date">
+			<ul class="month__start">
+				<li class="text__month">
+					<p>с</p>
+				</li>
+				<li class="day">
+					<input class="day__number" type="number" name="day_start" min="1" max="31" value="21">
+				</li>
+				<li>
+					<select class="month_link" name="month_start[]">
+						<option value="january">Январь</option>
+						<option value="february">Февраль</option>
+						<option value="march">Март</option>
+						<option value="april">Апрель</option>
+						<option value="may">Май</option>
+						<option value="june">Июнь</option>
+						<option value="july">Июль</option>
+						<option value="august">Август</option>
+						<option value="september">Сентябрь</option>
+						<option value="october">Октябрь</option>
+						<option value="november">Ноябрь</option>
+						<option value="december">Декабрь</option>
+					</select>
+				</li>
+			</ul>
+			<ul class="month__end">
+				<li class="text__month">
+					<p>до</p>
+				</li>
+				<li class="day">
+					<input class="day__number" type="number" name="day_end" min="1" max="31" value="21">
+				</li>
+				<li>
+					<select class="month_link" name="month_start[]">
+						<option value="january">Январь</option>
+						<option value="february">Февраль</option>
+						<option value="march">Март</option>
+						<option value="april">Апрель</option>
+						<option value="may">Май</option>
+						<option value="june">Июнь</option>
+						<option value="july">Июль</option>
+						<option value="august">Август</option>
+						<option value="september">Сентябрь</option>
+						<option value="october">Октябрь</option>
+						<option value="november">Ноябрь</option>
+						<option value="december">Декабрь</option>
+					</select>
+				</li>
+			</ul>
+		</div>
+
+		<div id="quantity__man">
+			<span class="adult"><input name="num__adult" type="text" class="num__adult"> взрослых</span> и 
+			<span class="adult"><input name="num__kid" type="text" class="num__adult"> детей</span>
+		</div>
+
+		<div class="checkboxs">
+			<input name="pets" type="checkbox" id="check_1"><label for="check_1">Дом. животными</label><br>
+			<input name="for_work" type="checkbox" id="check_2"><label for="check_2">По работе</label>
+		</div>
+
+		<div id="input">
+			<input type="text" class="input_1" placeholder="ФИО"><br>
+			<input type="text" class="input_2" placeholder="Сотовый телефон">
+		</div>
+
+		<div id="btn_and_price">
+			<span class="price">1000 ₽/день.</span>
+			<input type="submit" name="submit_btn" class="btn_1" value="Забронировать">
+		</div>
+	</section>
+</body>
+</html>
